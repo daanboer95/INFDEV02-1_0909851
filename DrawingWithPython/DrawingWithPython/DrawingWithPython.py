@@ -1,5 +1,5 @@
 ﻿import sys
-
+"""pyramid"""
 for x in range(0, 10):
     for z in range(x/2, 10):
         sys.stdout.write(" ")

@@ -1,2 +1,10 @@
-﻿d1 = raw_input("Player 1: Rock, Paper, Scizzers, Lizzard, Spock?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n->")
-d2 = raw_input("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlayer 2: Rock, Paper, Scizzers, Lizzard, Spock?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n->")
+﻿import sys
+
+npc = raw_input("versus npc[1] or 2-player[2]?\n")
+if(npc == 1):
+    c1 = raw_input("Player: Rock, Paper, Scissors, Lizard, Spock?\n")
+elif(npc == 2):
+    c1 = raw_input("Player 1: Rock, Paper, Scissors, Lizard, Spock?\n")
+    c2 = raw_input("Player 2: Rock, Paper, Scissors, Lizard, Spock?\n")
+else:
+    sys.stdout.write("Invalid answer")
